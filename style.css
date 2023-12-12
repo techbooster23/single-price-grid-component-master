@@ -70,9 +70,6 @@ button {
 .box1 > h2 {
     color: hsl(71, 73%, 54%);
 }
-.attribution {
-    margin-top: 50px;
-}
 @media (max-width : 400px){
     .container{
         display: flex;
