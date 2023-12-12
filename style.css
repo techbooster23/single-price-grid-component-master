@@ -1,0 +1,80 @@
+html {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.container {
+    display: grid;
+    width: 70%;
+    grid-template-rows:1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom:10px ;    
+}
+.box1 {
+    background-color: white;
+    grid-column: span 2;
+    text-align:start;
+ 
+}
+.box2{
+    background-color: hsl(179, 62%, 43%);
+    grid-row: span 1;
+    text-align: start;
+    color:white;
+}
+.box3{
+    background-color: skyblue;
+    grid-row: span 1;   
+    text-align: start;
+}
+.container > div  {
+       padding:20px ;
+}
+h1{
+  color:hsl(179, 62%, 43% );
+}
+#price {
+    font-size: 3rem;
+}
+#price > span {
+    font-size: 20px;
+    color: skyblue ;
+}
+.box3 {
+    color: hsl(179, 62%, 43%);
+    font-size: 20px;
+}
+.box3 > h2 {
+    color: white;
+}
+button {
+    border-radius: 5%;
+    border: 0;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    width: 60%;
+    height: 50px;
+    font-size: 1.5rem;
+    box-shadow: rgb(136, 136, 42);
+}
+.box1 > P {
+    font-size: 20px;
+    color:hsl(218, 22%, 67%);
+}
+.box1 > h2 {
+    color: hsl(71, 73%, 54%);
+}
+@media (max-width : 400px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
