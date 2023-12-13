@@ -2,10 +2,6 @@ html {
     background-color: hsl(204, 43%, 93%);
     font-family: 'Karla', sans-serif;
 }
-body{
-    display: flex;
-    flex-direction: column;
-}
 main {
     display: flex;
     height: 100vh;
@@ -78,7 +74,13 @@ button {
     .container{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
+        height: max-content;
     }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
     
 }
